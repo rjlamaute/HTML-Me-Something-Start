@@ -1,1 +1,6 @@
 /* Write your CSS here! */
+
+body {
+    display: block;
+    margin: 8px;
+}
