@@ -8,30 +8,42 @@
       <main>
          <article>
             <header>
-               <h1>Reginald Lamaute</h1>
-               <h1>Full-Stack Web Developer</h1>
-               <img src="./images/Profile photo.png">
-               <div>
+               <div id="headingContainer">
+                  <h1 id="mainHeading">Reginald Lamaute</h1>
+                  <h1 id="secondHeading">Full-Stack Web Developer</h1>
+               </div>
+               <div class="funParagraph imageContainer">
+                  <img id ="selfie" src="./images/Profile photo.png">
+               </div>
+               <div class="funParagraph" id="links">
                   <a href="https://drive.google.com/file/d/1teoZAepPLdkKi-qe3MfGPRfW7V2ksq7q/view?usp=sharing">Resume</a>
                   <a href="https://github.com/rjlamaute">GitHub</a>
                   <a href="https://www.linkedin.com/in/reginald-lamaute/">LinkedIn</a>
                </div>
             </header>
-            <h2>Summary</h2>
-            <p>As an aspiring web developer, my journey into the realm of technology has been driven by a fascination with the power of code to create innovative solutions and enhance user experiences. With a solid foundation in JavaScript, HTML/CSS, and Java, I am equipped with the technical skills needed to bring digital ideas to life. I thrive on the creative challenges that web development presents and am constantly seeking opportunities to expand my knowledge and expertise in this dynamic field.
-            </p>
-            <h2>Education</h2>
-            <ul>
-               <li>LaunchCode Full-Stack Web Development</li>
-               <li>University of Pennsylvania</li>
-            </ul>
-            <h2>Programming Languages</h2>
-            <p>Java, JavaScript, HTML, CSSl R</p>
-            <h2>Experience</h2>
+            <h2 class="funParagraph bordered" id="Summary">Summary</h2>
             <div>
+               <p id="testP" class="funParagraph">As an aspiring web developer, my journey into the realm of technology has been driven by a fascination with the power of code to create innovative solutions and enhance user experiences. With a solid foundation in JavaScript, HTML/CSS, and Java, I am equipped with the technical skills needed to bring digital ideas to life. I thrive on the creative challenges that web development presents and am constantly seeking opportunities to expand my knowledge and expertise in this dynamic field.
+               </p>
+            </div>
+            <h2 class="funParagraph bordered">Education</h2>
+            <div class="educationContainer">
+               <ul>
+                  <li>LaunchCode Full-Stack Web Development</li>
+                  <li>University of Pennsylvania</li>
+               </ul>
+            </div>
+            <h2 class="funParagraph bordered">Programming Languages</h2>
+            <div>
+               <p class="funParagraph">Java, JavaScript, HTML, CSS, R</p>
+            </div>
+            <h2 class="funParagraph bordered">Experience</h2>
+            <div class="jobContainer">
                <h4>City of Philadelphia, Recruitment Specialist</h4>
-               <span>November 2023 – present</span>
-               <span>Philadelphia, PA</span>
+               <div class="datesLocationContainer">
+                  <p class="dates">November 2023 – present</p>
+               <span class="location">Philadelphia, PA</span>
+               </div>
                <ul>
                   <li>Full cycle recruiting for the local city government under the
                      Parker administration.</li>
@@ -42,10 +54,12 @@
                      pipelines and ensure positive candidate experiences.</li>
                </ul>
             </div>
-            <div>
+            <div class="jobContainer">
                <h4>Maisonette, Technical Recruiter (Remote)</h4>
-               <span>April 2022 – December 2022</span>
-               <span>New York, NY</span>
+               <div class="datesLocationContainer">
+                  <span class="dates">April 2022 – December 2022</span>
+                  <span class="location">New York, NY</span>
+               </div>
                <ul>
                   <li>Oversaw full-cycle recruitment from opening job
                      requisitions to onboarding as the sole Technical Recruiter
@@ -59,10 +73,12 @@
                         accounting managers and planners.</li>
                </ul>
             </div>
-            <div>
+            <div class="jobContainer">
                <h4>CardinalTalent, Technical Recruiter (Remote)</h4>
-               <span>September 2021 – April 2022</span>
-               <span>Palo Alto, CA</span>
+               <div class="datesLocationContainer">
+                  <span class="dates">September 2021 – April 2022</span>
+                  <span class="location">Palo Alto, CA</span>
+               </div>
                <ul>
                   <li>Sourced and recruited candidates for both technical and
                      non-technical roles at a recruiting agency.</li>
@@ -73,10 +89,12 @@
                   <li>Acquired talent ranging from mid- to Vice President levels.</li>
                </ul>
             </div>
-            <div>
+            <div class="jobContainer">
                <h4>Strella Biotechnology, Technical Recruiter</h4>
-               <span>January 2019 – September 2021</span>
-               <span>Philadelphia, PA</span>
+               <div class="datesLocationContainer">
+                  <span class="dates">January 2019 – September 2021</span>
+                  <span class="location">Philadelphia, PA</span>
+               </div>
                <ul>
                   <li>Managed the full candidate cycle as the sole recruiter at
                      the organization.</li>
@@ -87,10 +105,14 @@
                      engineers.</li>
                </ul>
             </div>
-            <footer>
-               <h4>Contact:</h4>
-               <span>reginaldjlamaute@gmail.com</span>
-               <span>(914) 815-4985</span>
+            <footer class="jobContainer">
+               <div class="educationContainer bordered">
+                  <h4>Contact:</h4>
+               </div>
+               <div class="datesLocationContainer">
+                  <span>reginaldjlamaute@gmail.com</span>
+                  <span>(914) 815-4985</span>
+               </div>
                <p>&copy 2024 Reginald Lamaute</p>
             </footer>
          </article>

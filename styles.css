@@ -4,3 +4,78 @@ body {
     display: block;
     margin: 8px;
 }
+
+.funParagraph {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+#headingContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#mainHeading {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#secondHeading {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+#testP {
+    margin-top: 20px;
+}
+
+#selfie {
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.location {
+    text-align: right;
+    font-style: italic;
+}
+
+
+.datesLocationContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobContainer {
+    margin: auto;
+    width: 70%;
+}
+
+.educationContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bordered {
+    border-top: 2px solid black;
+}
