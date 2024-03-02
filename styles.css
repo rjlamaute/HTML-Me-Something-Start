@@ -5,6 +5,10 @@ body {
     margin: 8px;
 }
 
+.socials {
+    text-decoration: none;
+}
+
 .funParagraph {
     margin: auto;
     width: 70%;

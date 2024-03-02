@@ -1,0 +1,87 @@
+html,body{
+    min-height: 100%;
+    height:100%;
+}
+
+#testP {
+    margin: 10px;
+}
+
+#mainHeading {
+    font-style: italic;
+}
+
+#secondHeading {
+    font-style: italic;
+}
+
+.funParagraph {
+    background-color: lightblue;
+}
+
+.datesLocationContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    display: block;
+}
+
+span {
+    display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.socials {
+    text-decoration: none;
+    color: black;
+}
+
+.profileText {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutMe {
+    padding: 2px;
+}
+
+a {
+    display: block;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#selfie {
+    border-radius: 50%;
+    width: 250px;
+    margin: 20px;
+}
+
+.columns {
+    display: flex;
+    height: 175%;
+}
+
+.profile {
+    flex: 25%;
+    height: 100%;
+    background-color: purple;
+
+}
+
+.experience {
+    flex: 75%;
+    height: 100%;
+    margin-left: 10px;
+    padding: 10px;
+}
